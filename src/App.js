@@ -19,7 +19,7 @@ function App() {
 
 
             <div className={'sixOfRM'}>
-                <h2>Six characters of Rick&Morty</h2>
+                <h2>Characters of Rick&Morty without fetch</h2>
                 <div className={'labels'}>
                     <CardWithInfo name={"Octopus Man"} gender={'Male'}
                                   image={'https://rickandmortyapi.com/api/character/avatar/254.jpeg'}/>
