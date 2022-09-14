@@ -1,0 +1,13 @@
+.character{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px ;
+    background: #eeeded;
+}

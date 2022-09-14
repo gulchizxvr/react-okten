@@ -1,0 +1,8 @@
+.person{
+    margin-left: 30%;
+    display: flex;
+    justify-content: flex-start
+}
+.text{
+    width: 40%;
+}

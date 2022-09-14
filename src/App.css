@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.RickAndMorty > h2 {
+  text-align: center;
+}
+.sixOfRM > h2 {
+  text-align: center;
+}
+.labels{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.simpsons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
