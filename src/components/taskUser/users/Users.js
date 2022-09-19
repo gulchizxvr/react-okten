@@ -17,7 +17,7 @@ export default function Users() {
 
     useEffect(() => {
         getUser().then(users => setUsers(users))
-    })
+    },[])
 
     return (<div>
         {user? <InfoUser item={user}/> : null}

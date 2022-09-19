@@ -8,7 +8,7 @@ export default function Launches() {
 
         useEffect(() => {
             getLaunches().then((array) => setLaunches(array))
-        })
+        },[])
 
 
         return (
