@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 function Launch({item}) {
 
     return (
@@ -11,4 +9,4 @@ function Launch({item}) {
     );
 }
 
-export default Launch;
+export {Launch};

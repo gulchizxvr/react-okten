@@ -8,4 +8,4 @@ function InfoUser({item:user}) {
     );
 }
 
-export default InfoUser;
+export {InfoUser}

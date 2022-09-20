@@ -1,9 +1,12 @@
 import {useEffect, useState} from "react";
 
-import User from "../user/User";
-import InfoUser from "../infoUser/InfoUser";
 
-import {getUser} from "../../services/user.api.services";
+import {InfoUser} from "../../taskUser";
+import {User} from "../../taskUser";
+
+import {getUsers} from "../../services";
+
+
 
 
 export default function Users() {
@@ -16,7 +19,7 @@ export default function Users() {
     let [user, setUser] = useState(null)
 
     useEffect(() => {
-        getUser().then(users => setUsers(users))
+        getUsers().then(users => setUsers(users.data))
     },[])
 
     return (<div>

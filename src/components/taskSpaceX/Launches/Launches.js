@@ -1,20 +1,21 @@
 import React, {useEffect, useState} from 'react';
-import {getLaunches} from "../../services/spacexdata.api.services";
-import Launch from "../Launch/Launch";
+import {getLaunches} from "../../services";
+import {Launch} from "../../taskSpaceX";
 
-export default function Launches() {
+
+export function Launches() {
 
         let [launches, setLaunches] = useState([])
 
         useEffect(() => {
-            getLaunches().then((array) => setLaunches(array))
+           getLaunches().then((object) => setLaunches(object.data))
         },[])
 
 
         return (
 
             <div>
-                {launches.filter(({launch_year}) => launch_year!=='2020').map((launch, index) => (<Launch item={launch} key={index}/>))}
+                {launches.filter(({launch_year}) => launch_year!=='2020').map((launch) => (<Launch item={launch} key={launch.flight_number}/>))}
 
             </div>
         );

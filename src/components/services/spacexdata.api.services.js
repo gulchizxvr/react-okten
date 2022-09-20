@@ -1,7 +1,11 @@
-const _urlSpace = 'https://api.spacexdata.com/v3/launches/'
+import axios from "axios";
+
+const axiosInstance = axios.create(
+    { baseURL: 'https://api.spacexdata.com/v3/launches'})
 
 const getLaunches = () => {
-    return fetch(_urlSpace).then(value => value.json())
+       return axiosInstance.get()
 }
+
 
 export {getLaunches}

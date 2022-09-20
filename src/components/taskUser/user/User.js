@@ -1,4 +1,3 @@
-import React from 'react';
 
 function User({item:user,info}) {
 
@@ -14,4 +13,4 @@ function User({item:user,info}) {
     );
 }
 
-export default User;
+export {User};
