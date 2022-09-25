@@ -21,7 +21,7 @@ const CommentForm = ({setComments}) => {
 
     return (
         <form onSubmit={handleSubmit(submit)}>
-            <div className=''>
+            <div className={css.input_box}>
                 <input type="text" placeholder={'id поста до якого відноситься'} {...register('postId')}/>
                 {errors.postId && <span>{errors.postId.message}</span>}
                 <input type="text" placeholder={'Коментар'} {...register('name')}/>
