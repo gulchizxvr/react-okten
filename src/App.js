@@ -1,4 +1,4 @@
-import Users from "./components/Users/Users";
+import {Users} from "./components";
 import {useState} from "react";
 import {userService} from "./services";
 import {Posts} from "./components";
