@@ -1,0 +1,17 @@
+.navigator{
+    row-gap: 10px;
+    column-gap: 10px;
+    display: flex;
+    margin: 20px;
+}
+
+.navigator a{
+    text-decoration: none;
+}
+
+.navigator a[class="active"]{
+    border: 1px solid black;
+    background: grey;
+    color: white;
+
+}
