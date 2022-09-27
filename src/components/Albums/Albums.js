@@ -13,7 +13,7 @@ const Albums = () => {
 
     return (
         <div>
-            Останні 20 альбомів
+            <h2>All albums</h2>
             {albums.map(album=><Album key={album.id} album={album}/>)}
         </div>
     );

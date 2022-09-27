@@ -7,7 +7,7 @@ const Comment = ({comment}) => {
             <h2>{comment.id} - {comment.name}</h2>
             <p>PostId:{comment.postId}</p>
             <div>
-                <Link to={comment.postId.toString()} state={{...comment}}>Details</Link>
+                <Link to={comment.postId.toString()}>Details</Link>
             </div>
 
         </div>

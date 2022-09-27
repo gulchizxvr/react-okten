@@ -16,7 +16,7 @@ const Todos = () => {
 
     return (
         <div>
-            Останні 20 туду
+            <h2>All todos</h2>
             {todos.map(todo=><Todo key={todo.id} todo={todo}/>)}
 
         </div>

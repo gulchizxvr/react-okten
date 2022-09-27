@@ -1,7 +1,7 @@
 import {Route, Routes} from "react-router-dom";
 
 
-import {CommentDetail} from "./components";
+import {Post} from "./components";
 import {TodosPage} from "./pages/";
 import {CommentsPage} from "./pages";
 import {AlbumPage} from "./pages";
@@ -16,7 +16,7 @@ function App() {
                 <Route path={'/'} element={<MainLayout/>}>
                     <Route path={'todos'} element={<TodosPage/>}/>
                         <Route path={'comments'} element={<CommentsPage/>}>
-                            <Route path={':postId'} element={<CommentDetail/>}/>
+                            <Route path={':postId'} element={<Post/>}/>
                          </Route>
                             <Route path={'albums'} element={<AlbumPage/>}/>
                 </Route>

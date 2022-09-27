@@ -6,7 +6,7 @@ const jsonService = {
     getComments: () => axiosInstance.get(urls.comments),
     getTodos: ()=> axiosInstance.get(urls.todos),
     getAlbums: ()=> axiosInstance(urls.albums),
-    getCommentById: (id)=> axiosInstance(`${urls.comments}/${id}`)
+    getPostById: (id)=> axiosInstance(`${urls.posts}/${id}`)
 
 }
 

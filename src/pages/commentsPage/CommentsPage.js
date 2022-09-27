@@ -6,6 +6,7 @@ const CommentsPage = () => {
     return (
         <div>
             <Outlet/>
+            <h2>All comments</h2>
             <Comments/>
         </div>
     );

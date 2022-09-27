@@ -1,10 +1,10 @@
 import React from 'react';
-import {CommentDetail} from "../../components";
+import {Post} from "../../components";
 
 const CommentDetailsPage = () => {
     return (
         <div>
-           <CommentDetail/>
+           <Post/>
         </div>
     );
 };
