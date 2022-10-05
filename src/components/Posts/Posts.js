@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-import {jsonService} from "../../services/json.service";
+
 import {Post} from "../Post/Post";
+import {jsonService} from "../../services";
 
 const Posts = () => {
 

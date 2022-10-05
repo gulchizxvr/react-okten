@@ -1,0 +1,10 @@
+.postsPage{
+    text-align: center;
+    border: 2px solid grey;
+    margin: 2%;
+    background: coral;
+
+}
+.postsPage h2{
+    color: white;
+}

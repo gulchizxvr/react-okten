@@ -1,0 +1,10 @@
+.commentPage{
+    text-align: center;
+    border: 2px solid grey;
+    margin: 2%;
+    background: coral;
+
+}
+.commentPage h2{
+    color: white;
+}

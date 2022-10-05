@@ -1,9 +1,12 @@
 import React from 'react';
 
+import css from "./Comment.module.css"
+
 const Comment = ({comment}) => {
     return (
-        <div>
-            <h1>{comment.id}</h1>
+        <div className={css.commentDetails}>
+            <h3>{comment.id}</h3>
+            <p>Body:{comment.body}</p>
         </div>
     );
 };

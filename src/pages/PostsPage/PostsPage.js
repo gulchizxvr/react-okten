@@ -1,9 +1,11 @@
 import React from 'react';
-import {Posts} from "../../components/Posts/Posts";
+
+import css  from "./PostPage.module.css"
+import {Posts} from "../../components";
 
 const PostsPage = () => {
     return (
-        <div>
+        <div className={css.postsPage}>
             <h2>Posts</h2>
             <Posts/>
         </div>

@@ -1,11 +1,14 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom";
+
+import css from "./User.module.css"
+
 
 const User = ({user}) => {
 
     return (
-        <div>
-            <h3>{user.name}</h3>
+        <div className={css.userDetails}>
+            <h3>{user.id} {user.name}</h3>
+            <p>{user.email}</p>
         </div>
     );
 };

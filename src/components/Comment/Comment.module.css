@@ -1,0 +1,10 @@
+.commentDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: white;
+    margin: 10px 80px;
+
+}

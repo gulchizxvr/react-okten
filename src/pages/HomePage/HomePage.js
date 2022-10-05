@@ -3,7 +3,7 @@ import React from 'react';
 const HomePage = () => {
     return (
         <div>
-            <h3>Fpmfd</h3>
+            <h1>Howework Redux base</h1>
         </div>
     );
 };
