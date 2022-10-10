@@ -14,9 +14,11 @@
     text-decoration: none;
     color: black;
     background: bisque;
+    box-sizing: border-box;
 }
 .navBar a[class="active"]{
     color: white;
     background: coral;
+    box-sizing: border-box;
 }
 
