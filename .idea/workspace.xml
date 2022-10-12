@@ -50,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665582933236</updated>
-      <workItem from="1665582934611" duration="5282000" />
+      <workItem from="1665582934611" duration="5990000" />
     </task>
     <task id="LOCAL-00001" summary="hw typescript 1">
       <created>1665588530742</created>
@@ -59,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665588530742</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hw typescript 1">
+      <created>1665589974137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665589974137</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hw typescript 1">
+      <created>1665590046669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665590046669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,6 +81,11 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/interfaces/space.interface.js" />
+        <option value="$PROJECT_DIR$/interfaces/index.js" />
+        <option value="$PROJECT_DIR$/interfaces/payloads.interface.js" />
+        <option value="$PROJECT_DIR$/interfaces/links.interface.js" />
+        <option value="$PROJECT_DIR$/interfaces/rocket.interface.js" />
       </list>
     </option>
   </component>
