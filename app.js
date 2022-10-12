@@ -1,23 +1,7 @@
 "use strict";
 exports.__esModule = true;
-var user = {
-    name: "Max",
-    age: 18,
-    gender: 'male'
-};
-function sum(a, b) {
-    return a + b;
-}
-function showSum(a, b) {
-    console.log(a + b);
-}
-function incAge(someUser, inc) {
-    someUser.age += inc;
-    return someUser;
-}
-console.log(sum(1, 2));
-showSum(2, 3);
-incAge(user, 2);
+// 1) створити інтерфейс на основі цього объекта:
+//     Зверніть увагу там де масиви... в них може бути багато однотипних обїектів
 var spaceX = {
     "mission_name": "Starlink-15 (v1.0)",
     "launch_date_local": "2020-10-24T11:31:00-04:00",
@@ -52,6 +36,21 @@ var spaceX = {
         }
     }
 };
-console.log(spaceX.rocket.second_stage.payloads[0].payload_mass_kg);
-// ---------------------------------------------------------------------------—————————
-// 2) протипізувати функції:
+var user = {
+    name: "Max",
+    age: 18,
+    gender: 'male'
+};
+function sum(a, b) {
+    return a + b;
+}
+function showSum(a, b) {
+    console.log(a + b);
+}
+function incAge(someUser, inc) {
+    someUser.age += inc;
+    return someUser;
+}
+console.log(sum(1, 2));
+showSum(2, 3);
+incAge(user, 2);
