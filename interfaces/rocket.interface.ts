@@ -1,17 +1,10 @@
 import {IPayloads} from "./payloads.interface";
+import {ICore} from "./core.interface";
 
 export interface IRocket {
     rocket_name: string
     first_stage: {
-        "cores": [
-            {
-                flight: number
-                core: {
-                    reuse_count: number
-                    status: string | boolean
-                }
-            }
-        ]
+        "cores": ICore[]
     }
     second_stage: {
         payloads: IPayloads[]
